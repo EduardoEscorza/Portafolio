@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eduardo Developer | Portafolio</title>
+<meta name="description" content="Portafolio de Eduardo, desarrollador de software en Ciudad de México.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&family=Sora:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div id="boot">
+  <div class="boot-ring"></div>
+  <p id="boot-text">Cargando portafolio...</p>
+  <div id="boot-bar"><i></i></div>
+</div>
+
+<header class="nav">
+  <a class="logo" href="#inicio">Eduardo Escorza</a>
+  <button class="burger" type="button" aria-label="Abrir menú" aria-expanded="false">&#9776;</button>
+  <nav id="menu">
+    <a href="#inicio">Inicio</a>
+    <a href="#hago">Qué hago</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#toolkit">Toolkit</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+    <img class="hero-bg" id="hero-bg" src="img/img1.png" alt="img/img1.png" fetchpriority="high">
+    <div class="hero-in">
+    <h1 data-text="Eduardo Developer">Eduardo Escorza</h1>
+    <h3>Developer Full Stack</h3>
+    <p class="role"><span id="typed"></span><i class="cursor">|</i></p>
+    <p class="lead">Transformo ideas y necesidades reales en sistemas web funcionales, conectando tecnología, datos y experiencia de usuario.</p>
+
+    <div class="cta">
+    <a class="btn" href="docs/CV_Eduardo_Escorza_Developer.pdf" target="_blank">Descargar CV</a>
+    <a class="btn alt" href="#proyectos">Ver proyectos</a>
+    </div>
+
+    <div class="stats">
+        <div><b data-count="2" data-suf="+">0</b><span>Años de experiencia</span></div>
+        <div><b data-count="tools" data-suf="+">0</b><span>Tecnologías</span></div>
+        <div><b data-count="projects" data-suf="+">0</b><span>Proyectos</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="hago" class="sec reveal">
+  <h2>Lo que hago</h2>
+  <div class="carousel">
+    <!-- <button class="nav-btn" data-dir="-1" aria-label="Anterior">&#8249;</button> -->
+    <div class="track">
+      <article class="mini"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg><h3>Diseño web</h3><p>Interfaces claras y adaptables a cualquier pantalla.</p></article>
+      <article class="mini"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="6" rx="1"/><rect x="3" y="14" width="18" height="6" rx="1"/><path d="M7 7h.01M7 17h.01"/></svg><h3>Backend</h3><p>APIs con Node.js, TypeScript y autenticación JWT.</p></article>
+      <article class="mini"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg><h3>Bases de datos</h3><p>Modelado en MySQL y procedimientos almacenados.</p></article>
+      <article class="mini"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-8M22 20H2"/></svg><h3>Datos y reportes</h3><p>Análisis y tableros con Excel y Power BI.</p></article>
+    </div>
+    <!-- <button class="nav-btn" data-dir="1" aria-label="Siguiente">&#8250;</button> -->
+  </div>
+</section>
+
+<section id="proyectos" class="sec reveal">
+  <h2>Proyectos</h2>
+  <div class="grid">
+
+    <article class="project">
+      <div class="thumb" style="display:grid;place-items:center;height:110px;background:linear-gradient(135deg,#2a1b5a,#14141c)"><svg class="ico cap" viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5zM6 11v5c0 1 3 3 6 3s6-2 6-3v-5" pathLength="1"/></svg></div>
+      <div><p class="co">Proyecto universitario</p><h3>SIGETU</h3>
+      <ul class="chips"><li>Desarrollo fullstack</li><li>Diseño de base de datos</li><li>Scrum</li></ul>
+      <p>Diseñé y desarrollé de forma individual un sistema de gestión estudiantil, desde la estructura de la solución hasta su implementación. Actualmente trabajo en una nueva versión con backend propio y una arquitectura orientada a servicios.</p>
+    </article>
+
+    <article class="project">
+      <div class="thumb" style="display:grid;place-items:center;height:110px;background:linear-gradient(135deg,#2a1b5a,#14141c)"><svg class="ico chart" viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-8M22 20H2" pathLength="1"/></svg></div>
+      <div><p class="co">Cliente del sector automotriz</p><h3>Sistema de ventas sell-out</h3>
+      <ul class="chips"><li>Desarrollo fullstack</li><li>Optimización</li><li>Capacitación</li></ul>
+      <p>Participé en el desarrollo y optimización de un sistema para la gestión de ventas. Mejoré el proceso de carga masiva de información, reduciendo aproximadamente un 70% el tiempo de procesamiento, y brindé capacitación a usuarios de distintos países.</p>
+    </article>
+
+    <article class="project">
+      <div class="thumb" style="display:grid;place-items:center;height:110px;background:linear-gradient(135deg,#2a1b5a,#14141c)"><svg class="ico qr" viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h3v3M21 14v7h-4" pathLength="1"/></svg></div>
+      <div><p class="co">Cliente del sector turismo</p><h3>Sistema de control de accesos</h3>
+      <ul class="chips"><li>Desarrollo fullstack</li><li>Sistema multirol</li></ul>
+      <p>Participé en el desarrollo de un sistema de control de activos y accesos, incorporando generación y lectura de códigos QR, seguimiento de entradas y salidas, alertas automáticas y gestión de usuarios con diferentes niveles de acceso.</p>
+    </article>
+
+    <article class="project">
+      <div class="thumb" style="display:grid;place-items:center;height:110px;background:linear-gradient(135deg,#2a1b5a,#14141c)"><svg class="ico swap" viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h12l-3-3M17 17H5l3 3" pathLength="1"/></svg></div>
+      <div><p class="co">Cliente del sector hotelero</p><h3>Sistema de cargos cruzados</h3>
+      <ul class="chips"><li>Integración</li><li>Soporte</li><li>Capacitación</li></ul>
+      <p>Participé en la integración y soporte de un sistema para gestionar cargos entre diferentes establecimientos, además de brindar capacitación y acompañamiento a los usuarios durante su implementación.</p>
+    </article>
+
+    <article class="project">
+      <div class="thumb" style="display:grid;place-items:center;height:110px;background:linear-gradient(135deg,#2a1b5a,#14141c)"><svg class="ico cart" viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2 12h11l2-8H6M9 20h.01M17 20h.01" pathLength="1"/></svg></div>
+      <div><p class="co">E-commerce</p><h3>Tienda en línea a medida</h3>
+      <ul class="chips"><li>Desarrollo fullstack</li><li>E-commerce</li></ul>
+      <p>Participé como desarrollador fullstack en la construcción de una tienda en línea, trabajando tanto en la implementación de funcionalidades como en la integración con la base de datos.</p>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="thumb" style="display:grid;place-items:center;height:110px;background:linear-gradient(135deg,#2a1b5a,#14141c)"><svg class="ico bag" viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6zM9 8a3 3 0 0 1 6 0" pathLength="1"/></svg></div>
+      <div><p class="co">E-commerce</p><h3>Migración de tienda a Shopify</h3>
+      <ul class="chips"><li>Migración</li><li>Diseño web</li><li>Liderazgo</li></ul>
+      <p>Lideré la migración de una tienda en línea desde WordPress hacia Shopify, adaptando y personalizando la interfaz para mantener una experiencia acorde a las necesidades del proyecto.</p>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="thumb" style="display:grid;place-items:center;height:110px;background:linear-gradient(135deg,#2a1b5a,#14141c)"><svg class="ico mobile" viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2h8a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1zM11 18h2" pathLength="1"/></svg></div>
+      <div><p class="co">Desarrollo móvil</p><h3>App móvil de traslados</h3>
+      <ul class="chips"><li>Backend</li><li>APIs REST</li><li>Microservicios</li></ul>
+      <p>Participé en el desarrollo del backend de una aplicación móvil, implementando APIs REST para autenticación, gestión de usuarios, relaciones entre usuarios, operaciones CRUD, negociación de traslados y generación de códigos QR.</p>
+    </div>
+    </article>
+
+    <article class="project">
+      <div class="thumb" style="display:grid;place-items:center;height:110px;background:linear-gradient(135deg,#2a1b5a,#14141c)"><svg class="ico layout" viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h18v16H3zM3 10h18M9 10v10" pathLength="1"/></svg></div>
+      <div><p class="co">Landing page</p><h3>Landing page y gestión de cursos</h3>
+      <ul class="chips"><li>Diseño web</li><li>Liderazgo de equipo</li><li>Base de datos</li></ul>
+      <p>Lideré un pequeño equipo de desarrollo durante la evolución de una landing page hacia una solución con gestión de cursos y base de datos, coordinando tareas y participando directamente en el desarrollo.</p>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="thumb" style="display:grid;place-items:center;height:110px;background:linear-gradient(135deg,#2a1b5a,#14141c)"><svg class="ico health" viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3h4v7h7v4h-7v7h-4v-7H3v-4h7z" pathLength="1"/></svg></div>
+      <div><p class="co">Cliente del sector salud</p><h3>Expediente clínico digital</h3>
+      <ul class="chips"><li>Desarrollo fullstack</li></ul>
+      <p>Participé en el desarrollo fullstack de un sistema para la gestión de expedientes electrónicos, implementando autenticación, recuperación de acceso, confirmación por correo y diferentes roles de usuario.</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section id="toolkit" class="sec reveal">
+  <h2>Herramientas y tecnologías</h2>
+  <div>
+    <div class="groups">
+      <div class="tool-group">
+        <h3 style="font-size:.85rem;color:#a78bfa;text-transform:uppercase;letter-spacing:.08em;margin:0 0 .9rem">Lenguajes</h3>
+        <div class="tools">
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" alt=""><span>Python</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/java/java-original.svg" alt=""><span>Java</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/typescript/typescript-original.svg" alt=""><span>TypeScript</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" alt=""><span>JavaScript</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/php/php-original.svg" alt=""><span>PHP</span></div>
+        </div>
+      </div>
+      <div class="tool-group">
+        <h3 style="font-size:.85rem;color:#a78bfa;text-transform:uppercase;letter-spacing:.08em;margin:0 0 .9rem">Frontend</h3>
+        <div class="tools">
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/html5/html5-original.svg" alt=""><span>HTML</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/css3/css3-original.svg" alt=""><span>CSS</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" alt=""><span>React</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/vuejs/vuejs-original.svg" alt=""><span>Vue.js</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/angularjs/angularjs-original.svg" alt=""><span>Angular</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/materialui/materialui-original.svg" alt=""><span>Material UI</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/antdesign/antdesign-original.svg" alt=""><span>Ant Design</span></div>
+        </div>
+      </div>
+      <div class="tool-group">
+        <h3 style="font-size:.85rem;color:#a78bfa;text-transform:uppercase;letter-spacing:.08em;margin:0 0 .9rem">Backend</h3>
+        <div class="tools">
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nodejs/nodejs-original.svg" alt=""><span>Node.js</span></div>
+          <div class="tool"><img class="inv" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/express/express-original.svg" alt=""><span>Express</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/spring/spring-original.svg" alt=""><span>Spring Boot</span></div>
+        </div>
+      </div>
+      <div class="tool-group">
+        <h3 style="font-size:.85rem;color:#a78bfa;text-transform:uppercase;letter-spacing:.08em;margin:0 0 .9rem">Bases de datos</h3>
+        <div class="tools">
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mysql/mysql-original.svg" alt=""><span>MySQL</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt=""><span>PostgreSQL</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/firebase/firebase-plain.svg" alt=""><span>Firebase</span></div>
+          <div class="tool"><img class="inv" src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/liquibase.svg" alt=""><span>Liquibase</span></div>
+        </div>
+      </div>
+      <div class="tool-group">
+        <h3 style="font-size:.85rem;color:#a78bfa;text-transform:uppercase;letter-spacing:.08em;margin:0 0 .9rem">Servicios y herramientas</h3>
+        <div class="tools">
+          <div class="tool"><img class="inv" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt=""><span>AWS</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/git/git-original.svg" alt=""><span>Git</span></div>
+          <div class="tool"><img class="inv" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/github/github-original.svg" alt=""><span>GitHub</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/jira/jira-original.svg" alt=""><span>Jira</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/confluence/confluence-original.svg" alt=""><span>Confluence</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postman/postman-original.svg" alt=""><span>Postman</span></div>
+          <div class="tool"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2v20M2 12h20M5 5l14 14M19 5L5 19' stroke='%23D97757' stroke-width='2.6' stroke-linecap='round' fill='none'/%3E%3C/svg%3E" alt=""><span>Claude Code</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/openai.svg" alt=""><span>Codex</span></div>
+          <div class="tool"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/shopify/shopify-original.svg" alt=""><span>Shopify</span></div>
+        </div>
+      </div>
+      <div class="tool-group">
+        <h3 style="font-size:.85rem;color:#a78bfa;text-transform:uppercase;letter-spacing:.08em;margin:0 0 .9rem">Datos y escritorio</h3>
+        <div class="tools">
+          <div class="tool"><img class="inv" src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/microsoftexcel.svg" alt=""><span>Excel</span></div>
+          <div class="tool"><img class="inv" src="https://cdn.jsdelivr.net/npm/simple-icons@11/icons/powerbi.svg" alt=""><span>Power BI</span></div>
+        </div>
+      </div>
+    </div>
+    <aside class="way">
+      <article class="mini scrum">
+        <svg class="scrum-img" viewBox="0 0 240 110" role="img" aria-label="Ciclo de Scrum: backlog, sprint y entrega">
+          <rect x="6" y="14" width="64" height="34" rx="8" fill="#fff"/><rect x="88" y="14" width="64" height="34" rx="8" fill="#fff"/>
+          <rect x="170" y="14" width="64" height="34" rx="8" fill="#fff"/><path d="M70 31h18M152 31h18M202 48v34H38V48M33 54l5-6 5 6"/>
+            <g stroke="none" fill="#3b3470" font-size="12" font-family="Manrope,sans-serif" font-weight="600" text-anchor="middle">
+              <text x="38" y="35">Backlog</text><text x="120" y="35">Sprint</text><text x="202" y="35">Entrega</text><text x="120" y="102">Mejora continua</text></g></svg>
+              <h3>Scrum</h3>
+              <p>Organizo el trabajo en iteraciones cortas, priorizando entregas frecuentes, comunicación constante y mejora continua.</p>
+      </article>
+      <article class="mini">
+          <h3>Aprendizaje práctico</h3>
+          <p>Aprendo construyendo y resolviendo problemas reales, buscando entender primero el proceso para después optimizarlo y automatizarlo.</p>
+      </article>
+    </aside>
+  </div>
+</section>
+
+<section id="certificados" class="sec reveal">
+  <h2>Certificados</h2>
+  <div class="grid">
+    <article class="cert">
+      <svg class="ico" viewBox="0 0 24 24" width="38" height="38" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9h12v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4zM16 10h2a2 2 0 0 1 0 4h-2M7 3v3M11 3v3" pathLength="1"/></svg>
+      <h3>Java</h3><p>Coursera · 2026</p>
+      <a href="docs/Certificado_Java.pdf" target="_blank" rel="noopener">Ver certificado &rarr;</a>
+    </article>
+    <article class="cert">
+      <svg class="ico" viewBox="0 0 24 24" width="38" height="38" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 14-5M20 4v4h-4M20 12a8 8 0 0 1-14 5M4 20v-4h4" pathLength="1"/></svg>
+      <h3>Scrum</h3><p>SCRUM · 2024</p>
+      <a href="docs/Certificado_Scrum.pdf" target="_blank" rel="noopener">Ver certificado &rarr;</a>
+    </article>
+    <article class="cert">
+      <svg class="ico" viewBox="0 0 24 24" width="38" height="38" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11v2a1 1 0 0 0 1 1h3l7 4V6L7 10H4a1 1 0 0 0-1 1zM18 9a4 4 0 0 1 0 6" pathLength="1"/></svg>
+      <h3>Marketing digital</h3><p>Coursera · 2024</p>
+      <a href="docs/Certificado_marketing.pdf" target="_blank" rel="noopener">Ver certificado &rarr;</a>
+    </article>
+    <article class="cert">
+      <svg class="ico" viewBox="0 0 24 24" width="38" height="38" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6v4H9zM3 17h6v4H3zM15 17h6v4h-6zM12 7v5M6 17v-5h12v5" pathLength="1"/></svg>
+      <h3>Cisco</h3><p>Cisco · 2024</p>
+      <a href="docs/CertificadoNetAcad_Learning.pdf" target="_blank" rel="noopener">Ver certificado &rarr;</a>
+    </article>
+    <article class="cert">
+      <svg class="ico" viewBox="0 0 24 24" width="38" height="38" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h18v16H3zM7 9l3 3-3 3M12 15h5" pathLength="1"/></svg>
+      <h3>Linux</h3><p>NDG · 2021</p>
+      <a href="docs/Certificado_Linux.pdf" target="_blank" rel="noopener">Ver certificado &rarr;</a>
+    </article>
+    <article class="cert">
+      <svg class="ico" viewBox="0 0 24 24" width="38" height="38" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10H7zM9 3v4M15 3v4M9 17v4M15 17v4M3 9h4M3 15h4M17 9h4M17 15h4" pathLength="1"/></svg>
+      <h3>IT Essentials</h3><p>Cisco · 2019</p>
+      <a href="docs/Certificado_IT.pdf" target="_blank" rel="noopener">Ver certificado &rarr;</a>
+    </article>
+  </div>
+</section>
+
+<section id="contacto" class="sec reveal">
+  <h2>Contacto</h2>
+  <p class="lead c">Estoy abierto a oportunidades como desarrollador. Escríbeme.</p>
+  <div class="contact">
+    <ul>
+      <li><span>Correo</span><a href="mailto:eduardoescorza6@gmail.com">eduardoescorza6@gmail.com</a><button type="button" data-copy="eduardoescorza6@gmail.com">Copiar</button></li>
+      <li><span>Ubicación</span>Ciudad de México</li>
+    </ul>
+    <img id="foto" class="photo" src="img/img1.png" alt="Foto de Eduardo (marcador, reemplazar)" width="220" height="220">
+    <ul>
+      <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/eduardo-escorza" target="_blank" rel="noopener">eduardo-escorza</a></li>
+      <li><span>GitHub</span><a href="https://github.com/EduardoEscorza" target="_blank" rel="noopener">EduardoEscorza</a></li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer class="foot">&copy; <span id="year"></span> Eduardo Escorza. Ciudad de México.</footer>
+<button id="to-top" type="button" aria-label="Volver arriba"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"/></svg></button>
+<script src="script.js"></script>
+</body>
+</html>

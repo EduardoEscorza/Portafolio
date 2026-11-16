@@ -1,0 +1,675 @@
+{
+  "name": "Eduardo Escorza",
+  "role": "Full Stack Developer",
+  "email": "eduardoescorza6@gmail.com",
+  "github": "https://github.com/EduardoEscorza",
+  "linkedin": "https://www.linkedin.com/in/eduardo-escorza",
+  "photo": "img/portrait.webp",
+  "projects": [
+    {
+      "slug": "gestor-de-gastos",
+      "title": "Control de gastos personales",
+      "category": "Aplicación Android",
+      "role": "Desarrollo completo",
+      "published": true,
+      "device": "mobile",
+      "summary": "Aplicación Android para organizar pagos mensuales, servicios recurrentes y mensualidades de tarjetas de crédito, con un resumen de lo pagado y lo pendiente del mes.",
+      "description": [
+        "Desarrollé una aplicación de control de gastos a partir de una necesidad familiar: llevar un seguimiento claro de los compromisos de pago de cada mes. La aplicación permite registrar servicios y cargos recurrentes, agregar mensualidades de tarjetas de crédito y marcar los pagos realizados.",
+        "El resumen mensual reúne el importe total de los cargos, el monto pagado y el saldo pendiente. También muestra un indicador porcentual calculado sobre el total de cargos del mes para facilitar el seguimiento de los pagos. La información se almacena localmente en el dispositivo Android."
+      ],
+      "participation": [
+        "Me encargué del desarrollo completo, desde el análisis de requerimientos hasta la implementación de la aplicación y su almacenamiento local. Actualmente, la versión 1.0 es utilizada por varias personas, cuyos comentarios sirven para identificar errores y orientar futuras mejoras."
+      ],
+      "features": [
+        "Registro de servicios y nuevos compromisos de pago.",
+        "Gestión de servicios mensuales o recurrentes.",
+        "Registro de mensualidades de tarjetas de crédito.",
+        "Marcado de cargos como pagados.",
+        "Consulta del total mensual, los importes pagados y los pendientes.",
+        "Visualización del avance porcentual respecto al total de cargos del mes.",
+        "Almacenamiento local de la información en el dispositivo."
+      ],
+      "features_title": "Funcionalidades principales",
+      "technology_groups": {
+        "Lenguaje": [
+          "Kotlin"
+        ],
+        "Herramientas": [
+          "Android Studio"
+        ],
+        "Almacenamiento": [
+          "Local en el dispositivo Android"
+        ]
+      },
+      "technologies": [
+        "Kotlin",
+        "Android Studio",
+        "Local en el dispositivo Android"
+      ],
+      "result": "Versión 1.0 en uso por varias personas, con recepción de comentarios para mantenimiento y mejoras.",
+      "status": "Versión 1.0 en uso",
+      "screenshots": [],
+      "demo": null,
+      "repository": null
+    },
+    {
+      "slug": "sigetu",
+      "title": "Sistema de Gestión Estudiantil y Trámites Universitarios",
+      "category": "Aplicación web / Gestión universitaria",
+      "role": "Desarrollo completo",
+      "published": true,
+      "device": "desktop",
+      "summary": "Sistema web orientado a centralizar la gestión de usuarios, la organización académica y los trámites universitarios en una misma plataforma.",
+      "description": [
+        "Proyecto universitario que retomé para actualizar su enfoque y su desarrollo técnico. El sistema está orientado a la gestión de usuarios y a la organización académica, con un alcance que contempla edificios, divisiones, grupos, docentes, alumnos y evaluaciones.",
+        "La propuesta busca facilitar tareas como la asignación de docentes y alumnos a grupos, la organización de alumnos por división y la administración de información académica desde una plataforma centralizada."
+      ],
+      "participation": [
+        "Me encargo del desarrollo integral del proyecto, incluyendo el análisis de requerimientos, la estructura de la aplicación y la implementación de sus componentes. El trabajo abarca el backend, la base de datos y el frontend del sistema."
+      ],
+      "features": [
+        "Análisis de requerimientos y estructura de la aplicación.",
+        "Implementación de inicio de sesión y gestión de usuarios.",
+        "Trabajo integral en backend, base de datos y frontend."
+      ],
+      "features_title": "Aportaciones principales",
+      "technology_groups": {
+        "Backend": [
+          "Node.js",
+          "TypeScript"
+        ],
+        "Frontend": [
+          "React"
+        ],
+        "Base de datos": [
+          "MySQL"
+        ],
+        "Herramientas": [
+          "MySQL Workbench"
+        ],
+        "Seguridad": [
+          "bcrypt (hash de contraseñas)"
+        ]
+      },
+      "technologies": [
+        "Node.js",
+        "TypeScript",
+        "React",
+        "MySQL",
+        "MySQL Workbench",
+        "bcrypt (hash de contraseñas)"
+      ],
+      "result": null,
+      "status": null,
+      "screenshots": [],
+      "demo": null,
+      "repository": null
+    },
+    {
+      "slug": "sistema-de-ventas",
+      "title": "Centro de Ventas",
+      "category": "Plataforma web / Procesamiento de ventas",
+      "role": "Soporte, mantenimiento, optimización y desarrollo de módulos",
+      "published": true,
+      "device": "desktop",
+      "summary": "Participación en una plataforma de ventas de neumáticos mediante mejoras en la importación de archivos, validación de productos y herramientas de administración y reportes.",
+      "description": [
+        "Plataforma utilizada por distribuidores para cargar archivos de ventas y convertir su contenido en registros consultables. La información permite identificar al vendedor, las características de los neumáticos y las cantidades vendidas, además de facilitar la revisión administrativa y la generación de reportes.",
+        "El sistema también permite comprobar la correspondencia de los códigos enviados por los distribuidores con el catálogo de referencia. Esta homologación distingue los productos reconocidos de aquellos cuyos códigos requieren revisión y sirve de apoyo para validar las ventas consideradas en el proceso administrativo."
+      ],
+      "participation": [
+        "Me incorporé cuando la plataforma ya estaba desarrollada. Participé en su soporte y mantenimiento, en la creación y modificación de módulos y en la optimización de la lectura de archivos de ventas.",
+        "También trabajé en un módulo administrativo para revisar el detalle de los archivos Excel cargados y consultar la homologación de los productos. Complementé estas tareas con atención a usuarios, capacitaciones a clientes y actualización de código en una máquina virtual alojada en AWS."
+      ],
+      "features": [
+        "Optimización del procesamiento de archivos de ventas.",
+        "Creación y modificación de funcionalidades administrativas.",
+        "Consulta del detalle de archivos cargados por los distribuidores.",
+        "Revisión de códigos homologados y no homologados.",
+        "Soporte, mantenimiento y capacitación de usuarios.",
+        "Actualización de módulos en el entorno alojado en AWS."
+      ],
+      "features_title": "Aportaciones principales",
+      "technology_groups": {
+        "Lenguajes": [
+          "PHP",
+          "JavaScript"
+        ],
+        "Base de datos": [
+          "MySQL"
+        ],
+        "Infraestructura": [
+          "Máquina virtual en AWS"
+        ],
+        "Formatos procesados": [
+          "Excel",
+          "XML"
+        ]
+      },
+      "technologies": [
+        "PHP",
+        "JavaScript",
+        "MySQL",
+        "Máquina virtual en AWS",
+        "Excel",
+        "XML"
+      ],
+      "result": "En las cargas observadas, el tiempo de procesamiento pasó de aproximadamente 30 minutos a entre 3 y 5 minutos después de la optimización. Los archivos contenían alrededor de siete columnas y unos 500 registros o más.",
+      "status": "En producción",
+      "screenshots": [],
+      "demo": null,
+      "repository": null
+    },
+    {
+      "slug": "sistema-de-cargos-cruzados",
+      "title": "Cargos Cruzados Hoteleros",
+      "category": "Plataforma web / Operación hotelera",
+      "role": "Mantenimiento puntual y capacitación",
+      "published": true,
+      "device": "desktop",
+      "summary": "Mantenimiento de una plataforma hotelera para concentrar consumos de distintos centros de servicio en la cuenta de una habitación, junto con capacitación a usuarios operativos.",
+      "description": [
+        "Sistema que permite registrar consumos realizados en distintos centros de servicio y asociarlos a la habitación del huésped. Los cargos se concentran para facilitar su consulta y el cobro al finalizar la estancia.",
+        "La plataforma apoya la comunicación entre departamentos, como recepción y los centros de consumo, para dar seguimiento a los cargos asociados a cada habitación."
+      ],
+      "participation": [
+        "Me incorporé a una plataforma existente y realicé modificaciones puntuales en módulos de operación. Entre las tareas realizadas estuvo la incorporación de un apartado para visualizar la imagen del ticket asociado a un consumo.",
+        "También capacité a los usuarios que utilizarían la plataforma, incluyendo personal de recepción, y participé en la actualización de módulos en una máquina virtual alojada en AWS."
+      ],
+      "features": [
+        "Modificaciones puntuales en módulos existentes.",
+        "Incorporación de una vista de la imagen del ticket de consumo.",
+        "Capacitación a usuarios operativos de la plataforma.",
+        "Actualización de código en el entorno alojado en AWS."
+      ],
+      "features_title": "Aportaciones principales",
+      "technology_groups": {
+        "Lenguajes": [
+          "PHP",
+          "JavaScript"
+        ],
+        "Infraestructura": [
+          "Máquina virtual en AWS"
+        ]
+      },
+      "technologies": [
+        "PHP",
+        "JavaScript",
+        "Máquina virtual en AWS"
+      ],
+      "result": null,
+      "status": "En producción",
+      "screenshots": [],
+      "demo": null,
+      "repository": null
+    },
+    {
+      "slug": "sistema-de-control-de-accesos",
+      "title": "Control de Accesos Temporales",
+      "category": "Aplicación web / Control de accesos",
+      "role": "Integración y modificación de módulos existentes",
+      "published": true,
+      "device": "desktop",
+      "summary": "Actualización de módulos de control de accesos temporales mediante códigos QR y notificaciones por correo para la entrada y salida de objetos.",
+      "description": [
+        "Plataforma de control de accesos que gestiona autorizaciones temporales para personas que necesitan ingresar o retirar objetos. Los códigos QR permiten identificar la autorización correspondiente y los correos notifican a la persona que realizará el acceso. Las autorizaciones tienen una vigencia limitada."
+      ],
+      "participation": [
+        "Me incorporé a un sistema existente y participé en la integración y generación de códigos QR, la modificación de módulos de acceso de objetos y el envío de notificaciones por correo. Mi contribución se centró en actualizar funcionalidades concretas de una plataforma ya desarrollada."
+      ],
+      "features": [
+        "Integración y generación de códigos QR para autorizaciones temporales.",
+        "Modificación de módulos de entrada y salida de objetos.",
+        "Integración de notificaciones por correo a las personas autorizadas.",
+        "Manejo de autorizaciones con tiempo de vigencia limitado."
+      ],
+      "features_title": "Aportaciones principales",
+      "technology_groups": {
+        "Frontend": [
+          "Vue 3"
+        ],
+        "Herramientas": [
+          "Vite"
+        ],
+        "Lenguaje": [
+          "PHP"
+        ]
+      },
+      "technologies": [
+        "Vue 3",
+        "Vite",
+        "PHP"
+      ],
+      "result": null,
+      "status": "Sistema terminado",
+      "screenshots": [],
+      "demo": null,
+      "repository": null
+    },
+    {
+      "slug": "tienda-en-linea-a-medida",
+      "title": "Plataforma de Comercio Electrónico",
+      "category": "Aplicación web / E-commerce",
+      "role": "Desarrollo completo para un cliente",
+      "published": true,
+      "device": "desktop",
+      "summary": "Desarrollo integral de una plataforma de comercio electrónico con gestión de productos, inventario y panel administrativo de ventas.",
+      "description": [
+        "Primer proyecto desarrollado para un cliente, desde las conversaciones iniciales y el levantamiento de requerimientos hasta la finalización de la plataforma. La solución reúne la administración de productos e inventario con un panel enfocado en la gestión de ventas."
+      ],
+      "participation": [
+        "Me encargué del ciclo completo del desarrollo: comunicación inicial con el cliente, análisis de requerimientos, creación de procedimientos almacenados e implementación del backend y el frontend."
+      ],
+      "features": [
+        "Gestión de productos.",
+        "Administración del inventario.",
+        "Panel administrativo.",
+        "Gestión de ventas."
+      ],
+      "features_title": "Funcionalidades principales",
+      "technology_groups": {
+        "Lenguajes": [
+          "JavaScript",
+          "PHP"
+        ],
+        "Base de datos": [
+          "MySQL",
+          "Procedimientos almacenados"
+        ]
+      },
+      "technologies": [
+        "JavaScript",
+        "PHP",
+        "MySQL",
+        "Procedimientos almacenados"
+      ],
+      "result": null,
+      "status": "Finalizado",
+      "screenshots": [],
+      "demo": null,
+      "repository": null
+    },
+    {
+      "slug": "migracion-de-tienda-a-shopify",
+      "title": "Migración de Tienda a Shopify",
+      "category": "E-commerce / Migración de plataforma",
+      "role": "Adaptación de tienda y coordinación de una persona de apoyo",
+      "published": true,
+      "device": "desktop",
+      "summary": "Participación en la migración de una tienda de vestidos de novia de WordPress a Shopify, con adaptación del diseño, configuración de pagos y coordinación de apoyo técnico.",
+      "description": [
+        "Migración de una tienda del sector nupcial desde WordPress hacia Shopify. Mi trabajo se concentró en adaptar el diseño a la nueva plataforma y configurar las opciones de pago."
+      ],
+      "participation": [
+        "Además de trabajar en la adaptación de la tienda, coordiné a una persona de apoyo, definiendo las modificaciones que debíamos realizar y distribuyendo las tareas de implementación."
+      ],
+      "features": [
+        "Adaptación del diseño a Shopify.",
+        "Configuración de pagos.",
+        "Coordinación y orientación de una persona de apoyo."
+      ],
+      "features_title": "Aportaciones principales",
+      "technology_groups": {
+        "Plataformas": [
+          "WordPress",
+          "Shopify"
+        ]
+      },
+      "technologies": [
+        "WordPress",
+        "Shopify"
+      ],
+      "result": null,
+      "status": "En etapa de finalización al cierre de mi participación; cierre definitivo no confirmado",
+      "screenshots": [],
+      "demo": null,
+      "repository": null
+    },
+    {
+      "slug": "app-movil-de-traslados",
+      "title": "Backend para Transporte de Mercancías",
+      "category": "Backend / Microservicios",
+      "role": "Desarrollo de gran parte de los servicios del backend",
+      "published": true,
+      "device": "backend",
+      "summary": "Desarrollo de microservicios para una aplicación de transporte de mercancías, con localización de vehículos, persistencia de datos y negociación del precio del servicio.",
+      "description": [
+        "Backend para una aplicación que conecta necesidades de traslado de mercancías con servicios de transporte. Contempla vehículos para carga a temperatura ambiente y transporte refrigerado, además de una dinámica para proponer y aceptar el precio del traslado."
+      ],
+      "participation": [
+        "Participé exclusivamente en el backend y desarrollé gran parte de sus servicios mediante una arquitectura de microservicios. Trabajé en APIs, acceso a datos mediante procedimientos almacenados e integración de la localización de vehículos y la persistencia de información.",
+        "También participé en la funcionalidad de negociación para proponer y aceptar el precio del servicio."
+      ],
+      "features": [
+        "Desarrollo de microservicios y APIs.",
+        "Integración con MySQL mediante procedimientos almacenados.",
+        "Integración de la localización de vehículos.",
+        "Persistencia de datos.",
+        "Funcionalidad de propuesta y aceptación del precio del traslado."
+      ],
+      "features_title": "Aportaciones principales",
+      "technology_groups": {
+        "Backend": [
+          "Node.js",
+          "TypeScript",
+          "Moleculer"
+        ],
+        "Base de datos": [
+          "MySQL",
+          "Procedimientos almacenados"
+        ]
+      },
+      "technologies": [
+        "Node.js",
+        "TypeScript",
+        "Moleculer",
+        "MySQL",
+        "Procedimientos almacenados"
+      ],
+      "result": null,
+      "status": "Finalizado",
+      "screenshots": [],
+      "demo": null,
+      "repository": null
+    },
+    {
+      "slug": "landing-page-y-gestion-de-cursos",
+      "title": "Landing de Cursos",
+      "category": "Sitio web / Difusión de cursos",
+      "role": "Desarrollo a mi cargo",
+      "published": true,
+      "device": "desktop",
+      "summary": "Desarrollo de una landing page para presentar cursos y sus fechas, con un alcance que contemplaba inscripción de visitantes y comunicación por correo.",
+      "description": [
+        "Página orientada a mostrar cursos y sus fechas para facilitar la consulta de la oferta disponible. El alcance contemplaba el registro de visitantes y el envío de información e invitaciones por correo, incluyendo el costo del curso."
+      ],
+      "participation": [
+        "Tuve a mi cargo el desarrollo de la landing. El proyecto no se completó en su totalidad: las funcionalidades de registro y envío de correos quedaron pendientes de terminar."
+      ],
+      "features": [
+        "Presentación de cursos.",
+        "Visualización de fechas.",
+        "Preparación del flujo de inscripción y comunicación por correo, sin concluirlo."
+      ],
+      "features_title": "Alcance trabajado",
+      "technology_groups": {
+        "Lenguaje": [
+          "JavaScript"
+        ]
+      },
+      "technologies": [
+        "JavaScript"
+      ],
+      "result": null,
+      "status": "Desarrollo parcial",
+      "screenshots": [],
+      "demo": null,
+      "repository": null
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Java Programming: Solving Problems with Software",
+      "issuer": "Duke University · Coursera",
+      "date": "2026-08-08",
+      "file": "docs/Certificado_Java.pdf",
+      "verify": "https://coursera.org/verify/QPT4PYG082I6",
+      "icon": "code",
+      "published": true,
+      "year": 2026
+    },
+    {
+      "title": "Scrum",
+      "issuer": null,
+      "date": "2024-05-08",
+      "file": "docs/Certificado_Scrum.pdf",
+      "verify": null,
+      "icon": "cycle",
+      "published": true,
+      "year": 2024
+    },
+    {
+      "title": "Fundamentos del marketing digital y comercio electrónico",
+      "issuer": "Google · Coursera",
+      "date": "2024-03-16",
+      "file": "docs/Certificado_marketing.pdf",
+      "verify": null,
+      "icon": "chart",
+      "published": true,
+      "year": 2024
+    },
+    {
+      "title": "Cisco",
+      "issuer": "Cisco Networking Academy",
+      "date": null,
+      "year": 2024,
+      "file": "docs/CertificadoNetAcad_Learning.pdf",
+      "verify": null,
+      "icon": "network",
+      "published": true,
+      "description": "Constancia de formación"
+    },
+    {
+      "title": "NDG Linux Essentials",
+      "issuer": "NDG · Cisco Networking Academy",
+      "date": "2021-08-12",
+      "file": "docs/Certificado_Linux.pdf",
+      "verify": null,
+      "icon": "terminal",
+      "published": true,
+      "year": 2021
+    },
+    {
+      "title": "IT Essentials",
+      "issuer": "Cisco Networking Academy",
+      "date": "2019-12-04",
+      "file": "docs/Certificado_IT.pdf",
+      "verify": null,
+      "icon": "chip",
+      "published": true,
+      "year": 2019
+    }
+  ],
+  "tools": [
+    {
+      "name": "Python",
+      "logo": "img/logos/python.svg",
+      "group": "Lenguajes",
+      "featured": false
+    },
+    {
+      "name": "Java",
+      "logo": "img/logos/java.svg",
+      "group": "Lenguajes",
+      "featured": false
+    },
+    {
+      "name": "TypeScript",
+      "logo": "img/logos/typescript.svg",
+      "group": "Lenguajes",
+      "featured": false
+    },
+    {
+      "name": "JavaScript",
+      "logo": "img/logos/javascript.svg",
+      "group": "Lenguajes",
+      "featured": false
+    },
+    {
+      "name": "PHP",
+      "logo": "img/logos/php.svg",
+      "group": "Lenguajes",
+      "featured": false
+    },
+    {
+      "name": "Kotlin",
+      "logo": "img/logos/kotlin.svg",
+      "group": "Lenguajes",
+      "featured": false
+    },
+    {
+      "name": "HTML",
+      "logo": "img/logos/html5.svg",
+      "group": "Frontend",
+      "featured": false
+    },
+    {
+      "name": "CSS",
+      "logo": "img/logos/css3.svg",
+      "group": "Frontend",
+      "featured": false
+    },
+    {
+      "name": "React",
+      "logo": "img/logos/react.svg",
+      "group": "Frontend",
+      "featured": false
+    },
+    {
+      "name": "Vue.js",
+      "logo": "img/logos/vuejs.svg",
+      "group": "Frontend",
+      "featured": false
+    },
+    {
+      "name": "Angular",
+      "logo": "img/logos/angularjs.svg",
+      "group": "Frontend",
+      "featured": false
+    },
+    {
+      "name": "Material UI",
+      "logo": "img/logos/materialui.svg",
+      "group": "Frontend",
+      "featured": false
+    },
+    {
+      "name": "Ant Design",
+      "logo": "img/logos/antdesign.svg",
+      "group": "Frontend",
+      "featured": false
+    },
+    {
+      "name": "Node.js",
+      "logo": "img/logos/nodejs.svg",
+      "group": "Backend",
+      "featured": false
+    },
+    {
+      "name": "Express",
+      "logo": "img/logos/express.svg",
+      "group": "Backend",
+      "featured": false
+    },
+    {
+      "name": "Spring Boot",
+      "logo": "img/logos/spring.svg",
+      "group": "Backend",
+      "featured": false
+    },
+    {
+      "name": "MySQL",
+      "logo": "img/logos/mysql.svg",
+      "group": "Bases de datos",
+      "featured": false
+    },
+    {
+      "name": "PostgreSQL",
+      "logo": "img/logos/postgresql.svg",
+      "group": "Bases de datos",
+      "featured": false
+    },
+    {
+      "name": "Firebase",
+      "logo": "img/logos/firebase.svg",
+      "group": "Bases de datos",
+      "featured": false
+    },
+    {
+      "name": "Liquibase",
+      "logo": "img/logos/liquibase.svg",
+      "group": "Bases de datos",
+      "featured": false
+    },
+    {
+      "name": "AWS",
+      "logo": "img/logos/aws.svg",
+      "group": "Servicios y herramientas",
+      "featured": true
+    },
+    {
+      "name": "Git",
+      "logo": "img/logos/git.svg",
+      "group": "Servicios y herramientas",
+      "featured": false
+    },
+    {
+      "name": "GitHub",
+      "logo": "img/logos/github.svg",
+      "group": "Servicios y herramientas",
+      "featured": false
+    },
+    {
+      "name": "Jira",
+      "logo": "img/logos/jira.svg",
+      "group": "Servicios y herramientas",
+      "featured": false
+    },
+    {
+      "name": "Confluence",
+      "logo": "img/logos/confluence.svg",
+      "group": "Servicios y herramientas",
+      "featured": false
+    },
+    {
+      "name": "Postman",
+      "logo": "img/logos/postman.svg",
+      "group": "Servicios y herramientas",
+      "featured": false
+    },
+    {
+      "name": "Claude Code",
+      "logo": "img/logos/claude.svg",
+      "group": "Servicios y herramientas",
+      "featured": true
+    },
+    {
+      "name": "Codex",
+      "logo": "img/logos/codex.svg",
+      "group": "Servicios y herramientas",
+      "featured": true
+    },
+    {
+      "name": "Shopify",
+      "logo": "img/logos/shopify.svg",
+      "group": "Servicios y herramientas",
+      "featured": true
+    },
+    {
+      "name": "Android Studio",
+      "logo": "img/logos/androidstudio.svg",
+      "group": "Servicios y herramientas",
+      "featured": true
+    },
+    {
+      "name": "Visual Studio Code",
+      "logo": "img/logos/vscode.svg",
+      "group": "Servicios y herramientas",
+      "featured": true
+    },
+    {
+      "name": "Excel",
+      "logo": "img/logos/excel.svg",
+      "group": "Datos y escritorio",
+      "featured": false
+    },
+    {
+      "name": "Power BI",
+      "logo": "img/logos/powerbi.svg",
+      "group": "Datos y escritorio",
+      "featured": false
+    }
+  ],
+  "cv": "docs/CV_Eduardo_Escorza_Developer.pdf"
+}

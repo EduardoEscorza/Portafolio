@@ -156,7 +156,7 @@
         "XML"
       ],
       "result": "En las cargas observadas, el tiempo de procesamiento pasó de aproximadamente 30 minutos a entre 3 y 5 minutos después de la optimización. Los archivos contenían alrededor de siete columnas y unos 500 registros o más.",
-      "status": "En producción",
+      "status": null,
       "screenshots": [],
       "demo": null,
       "repository": null
@@ -199,7 +199,7 @@
         "Máquina virtual en AWS"
       ],
       "result": null,
-      "status": "En producción",
+      "status": null,
       "screenshots": [],
       "demo": null,
       "repository": null
@@ -242,7 +242,7 @@
         "PHP"
       ],
       "result": null,
-      "status": "Sistema terminado",
+      "status": null,
       "screenshots": [],
       "demo": null,
       "repository": null
@@ -285,7 +285,7 @@
         "Procedimientos almacenados"
       ],
       "result": null,
-      "status": "Finalizado",
+      "status": null,
       "screenshots": [],
       "demo": null,
       "repository": null
@@ -321,7 +321,7 @@
         "Shopify"
       ],
       "result": null,
-      "status": "En etapa de finalización al cierre de mi participación; cierre definitivo no confirmado",
+      "status": null,
       "screenshots": [],
       "demo": null,
       "repository": null
@@ -368,7 +368,7 @@
         "Procedimientos almacenados"
       ],
       "result": null,
-      "status": "Finalizado",
+      "status": null,
       "screenshots": [],
       "demo": null,
       "repository": null
@@ -402,7 +402,65 @@
         "JavaScript"
       ],
       "result": null,
-      "status": "Desarrollo parcial",
+      "status": null,
+      "screenshots": [],
+      "demo": null,
+      "repository": null
+    },
+    {
+      "slug": "expediente-clinico",
+      "title": "Expediente Clínico Digital",
+      "category": "Aplicación web / Sector salud",
+      "role": "Corrección y desarrollo de algunos módulos durante la segunda fase de un sistema existente",
+      "published": true,
+      "device": "desktop",
+      "summary": "Participación en la segunda fase de una plataforma de expediente clínico digital, mediante correcciones, desarrollo de módulos y mejoras de interfaces y validaciones.",
+      "description": [
+        "Sistema web orientado a organizar información clínica y facilitar su consulta por parte del personal médico. El proyecto contempla la gestión de usuarios, perfiles y permisos, así como información de pacientes y catálogos de apoyo a la operación.",
+        "Me incorporé durante una segunda fase de desarrollo, trabajando junto con el equipo responsable para ampliar y corregir funcionalidades de la plataforma."
+      ],
+      "participation": [
+        "Participé en la corrección y el desarrollo de algunos módulos de una aplicación que ya contaba con avances previos. Mi trabajo se enfocó en modificar interfaces existentes, corregir errores e incorporar funcionalidades y validaciones dentro del alcance asignado.",
+        "No fui responsable del desarrollo completo del sistema ni de todos los módulos descritos en su documentación.",
+        "Participación realizada durante la segunda fase de desarrollo."
+      ],
+      "features": [
+        "Corrección de errores en módulos e interfaces existentes.",
+        "Desarrollo de funcionalidades dentro de módulos asignados.",
+        "Incorporación y ajuste de validaciones.",
+        "Colaboración con el equipo durante la segunda fase del proyecto."
+      ],
+      "features_title": "Aportaciones",
+      "technology_groups": {
+        "Frontend": [
+          "Angular",
+          "TypeScript"
+        ],
+        "Backend": [
+          "Java",
+          "Spring Boot"
+        ],
+        "Control de versiones": [
+          "Git",
+          "Bitbucket"
+        ],
+        "Entorno de desarrollo": [
+          "Eclipse",
+          "Visual Studio Code",
+          "XAMPP"
+        ],
+        "Marco de trabajo": [
+          "Scrum"
+        ]
+      },
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "Java",
+        "Spring Boot"
+      ],
+      "result": null,
+      "status": null,
       "screenshots": [],
       "demo": null,
       "repository": null
